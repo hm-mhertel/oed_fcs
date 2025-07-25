@@ -36,7 +36,7 @@ from src.oed.metrics.metric_library import KFoldCrossValidation
 from src.oed.metrics.metric_library import StdParameterEstimations
 from src.minimizer.minimizer_library.differential_evolution import DifferentialEvolution
 from src.parametric_function_library.aging_model import AgingModel
-from src.oed.statistical_models.statistical_model_library.gaussian_noise_model import (
+from oed.statistical_models.statistical_model_library import (
     GaussianNoiseModel,
 )
 

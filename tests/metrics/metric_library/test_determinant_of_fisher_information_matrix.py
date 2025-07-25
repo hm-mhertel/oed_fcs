@@ -5,7 +5,7 @@ import numpy as np
 from src.oed.experiments import LatinHypercube
 from src.oed.metrics.metric_library import DeterminantOfFisherInformationMatrix
 from src.parametric_function_library.linear_function import LinearFunction
-from src.oed.statistical_models.statistical_model_library.gaussian_noise_model import GaussianNoiseModel
+from oed.statistical_models.statistical_model_library import GaussianNoiseModel
 
 dimension = 3
 function = LinearFunction()

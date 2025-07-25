@@ -28,7 +28,7 @@ from src.minimizer.minimizer_library.differential_evolution import DifferentialE
 from src.parametric_function_library.interfaces.parametric_function import (
     ParametricFunction,
 )
-from src.oed.statistical_models.statistical_model_library.gaussian_noise_model import (
+from oed.statistical_models.statistical_model_library import (
     GaussianNoiseModel,
 )
 
