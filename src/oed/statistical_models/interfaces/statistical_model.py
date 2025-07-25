@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 
 import numpy as np
 
+from src.oed.minimizer.interfaces.minimizer import Minimizer
 
 
 class StatisticalModel(ABC):
