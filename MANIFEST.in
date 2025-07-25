@@ -1,1 +1,2 @@
 include oed/*
+recursive-include src/oed *
