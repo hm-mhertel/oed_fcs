@@ -16,11 +16,11 @@ import numpy as np
 
 import plotly.graph_objects as go
 
-from src.experiments.experiment_library.latin_hypercube import LatinHypercube
+from src.oed.experiments import LatinHypercube
 
 ####
 # Designs
-from src.experiments.experiment_library.point_prediction_design import (
+from src.oed.experiments import (
     PointPredictionDesign,
 )
 
@@ -28,7 +28,7 @@ from src.minimizer.minimizer_library.differential_evolution import DifferentialE
 from src.parametric_function_library.interfaces.parametric_function import (
     ParametricFunction,
 )
-from src.statistical_models.statistical_model_library.gaussian_noise_model import (
+from src.oed.statistical_models.statistical_model_library.gaussian_noise_model import (
     GaussianNoiseModel,
 )
 

@@ -4,7 +4,7 @@ import numpy as np
 
 from src.minimizer.minimizer_library.differential_evolution import DifferentialEvolution
 from src.parametric_function_library.linear_function import LinearFunction
-from src.statistical_models.statistical_model_library.gaussian_noise_model import GaussianNoiseModel
+from src.oed.statistical_models.statistical_model_library.gaussian_noise_model import GaussianNoiseModel
 
 dimension = 3
 function = LinearFunction()

@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from src.experiments.experiment_library.random import Random
+from src.oed.experiments import Random
 
 lower_bounds_design = np.zeros(5)
 upper_bounds_design = np.ones(5)

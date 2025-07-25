@@ -15,24 +15,24 @@ Being more precisely, we
 import numpy as np
 
 from src.benchmarking.benchmarking import Benchmarking
-from src.experiments.experiment_library.d_design import DDesign
-from src.experiments.experiment_library.latin_hypercube import LatinHypercube
-from src.experiments.experiment_library.pi_design import PiDesign
-from src.experiments.experiment_library.random import Random
+from src.oed.experiments import DDesign
+from src.oed.experiments import LatinHypercube
+from src.oed.experiments import PiDesign
+from src.oed.experiments import Random
 ####
 # Designs
-from src.metrics.metric_library.determinant_of_fisher_information_matrix import (
+from src.oed.metrics.metric_library import (
     DeterminantOfFisherInformationMatrix,
 )
-from src.metrics.metric_library.estimation_mean_error import EstimationMeanError
-from src.metrics.metric_library.estimation_mean_parameter_estimations import (
+from src.oed.metrics.metric_library.estimation_mean_error import EstimationMeanError
+from src.oed.metrics.metric_library import (
     EstimationMeanParameterEstimations,
 )
-from src.metrics.metric_library.k_fold_cross_validation import KFoldCrossValidation
-from src.metrics.metric_library.std_parameter_estimations import StdParameterEstimations
+from src.oed.metrics.metric_library import KFoldCrossValidation
+from src.oed.metrics.metric_library import StdParameterEstimations
 from src.minimizer.minimizer_library.differential_evolution import DifferentialEvolution
 from src.parametric_function_library.interfaces.parametric_function import ParametricFunction
-from src.statistical_models.statistical_model_library.gaussian_noise_model import (
+from src.oed.statistical_models.statistical_model_library.gaussian_noise_model import (
     GaussianNoiseModel,
 )
 

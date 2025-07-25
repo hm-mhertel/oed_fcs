@@ -2,10 +2,10 @@ import unittest
 
 import numpy as np
 
-from src.experiments.experiment_library.latin_hypercube import LatinHypercube
-from src.metrics.metric_library.determinant_of_fisher_information_matrix import DeterminantOfFisherInformationMatrix
+from src.oed.experiments import LatinHypercube
+from src.oed.metrics.metric_library import DeterminantOfFisherInformationMatrix
 from src.parametric_function_library.linear_function import LinearFunction
-from src.statistical_models.statistical_model_library.gaussian_noise_model import GaussianNoiseModel
+from src.oed.statistical_models.statistical_model_library.gaussian_noise_model import GaussianNoiseModel
 
 dimension = 3
 function = LinearFunction()

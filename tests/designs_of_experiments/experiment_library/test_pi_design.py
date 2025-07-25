@@ -2,11 +2,11 @@ import unittest
 
 import numpy as np
 
-from src.experiments.experiment_library.latin_hypercube import LatinHypercube
-from src.experiments.experiment_library.pi_design import PiDesign
+from src.oed.experiments import LatinHypercube
+from src.oed.experiments import PiDesign
 from src.minimizer.minimizer_library.differential_evolution import DifferentialEvolution
 from src.parametric_function_library.linear_function import LinearFunction
-from src.statistical_models.statistical_model_library.gaussian_noise_model import GaussianNoiseModel
+from src.oed.statistical_models.statistical_model_library.gaussian_noise_model import GaussianNoiseModel
 
 number_designs = 3
 dimension = 2
